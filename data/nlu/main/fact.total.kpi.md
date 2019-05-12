@@ -8,33 +8,14 @@
 - what is the [target qty](fact:TargetQuantity)
 - show me [quantity of sales](fact:TargetQuantity)
 - what is the [average](agg:mean) [sales](fact:SalesAmount)
+- what is the [max](agg:max) [sales](fact:SalesAmount)
+- what is the [minimum](agg:max) [sales](fact:SalesAmount)
+- what is the [count of](agg:max) [sales](fact:SalesAmount)
 
-## synonym:SalesAmount
-- revenue
-- sales
-- total sales
-- total revenue
-- sales amount
-- amount
 
-## synonym:SalesQuantity
-- quantity of sales
-- sales qty
-- total quantity
-- qty.
-- sales quantity
-- qty of sales
-
-## synonym:TargetAmount
-- target revenue
-- target
-- total target
-- target amount
-- sales amt
-- amt of target
-
-## synonym:TargetQuantity
-- quantity of target
-- target qty
-- target quantity
-- qty of target
+## lookup:agg
+- sum
+- min
+- max
+- mean
+- count
