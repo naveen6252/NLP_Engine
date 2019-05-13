@@ -23,7 +23,7 @@
 - target amount
 - amount target
 
-## synonym:TargetQuantity
+## synonym:TargetQty
 - quantity of target
 - target qty
 - target quantity

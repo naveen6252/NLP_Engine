@@ -3,6 +3,7 @@
 - total
 - full
 - whole
+- sum of
 
 ## synonym:mean
 - average
@@ -26,5 +27,5 @@
 ## synonym:count
 - number
 - no. of
-- total number
+- total number of
 - count of
