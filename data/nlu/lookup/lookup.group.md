@@ -1,0 +1,13 @@
+## lookup:group
+- CustomerName
+- CustomerRegion
+- CustomerType
+- Name
+- ProdGroup
+- ProductDesc
+- CalendarDate
+- Month
+- Year
+- MonthYear
+- Quarter
+- QuarterYear
