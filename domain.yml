@@ -1,3 +1,8 @@
+slots:
+  matches:
+    type: text
+    initial_value: "none"
+
 intents:
   - agent.acquaintance
   - agent.age
@@ -85,6 +90,10 @@ intents:
   - confirmation.yes
   - confirmation.cancel
   - confirmation.no
+  - dim.kpi.adject
+  - fact.kpi.dim.filter
+  - fact.kpi.single
+  - fact.table.group
 
 templates:
     utter_agent.acquaintance:
@@ -619,3 +628,7 @@ actions:
   - utter_confirmation.yes
   - utter_confirmation.cancel
   - utter_confirmation.no
+  - action_dim.kpi.adject
+  - action_fact.kpi.dim.filter
+  - action_fact.kpi.single
+  - action_fact.table.group

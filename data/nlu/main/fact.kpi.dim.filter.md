@@ -1,4 +1,4 @@
-## intent:fact.dim.filter
+## intent:fact.kpi.dim.filter
 - Show me [sales](fact:SalesAmount) for [customer 50](CustomerName:Customer50)
 - Show me [sales](fact:SalesAmount) for [Customer1](CustomerName:Customer1)
 - Show me [sales](fact:SalesAmount) by [Customer10](CustomerName:Customer10)

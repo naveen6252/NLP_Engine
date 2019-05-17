@@ -1,4 +1,4 @@
-## lookup:group
+## lookup:dim
 - CustomerName
 - CustomerRegion
 - CustomerType

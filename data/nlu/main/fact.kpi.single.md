@@ -1,4 +1,4 @@
-## intent:fact.total.kpi
+## intent:fact.kpi.single
 - tell me [total](agg:sum) [sales](fact:SalesAmount)
 - what's my [total](agg:sum) [sales](fact:SalesAmount)
 - show me [quantity of sales](fact:SalesQty)

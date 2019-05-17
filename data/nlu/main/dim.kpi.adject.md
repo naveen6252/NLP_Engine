@@ -1,0 +1,11 @@
+## intent:dim.kpi.adject
+- Who is my [best](selection:top) [customer](dim:CustomerName)
+- Which [product](dim:ProductDesc) is [best](selection:top) sold
+- who is the [supreme](selection:top) [employee](dim:Name)
+- show me the [worst](selection:bottom) [customer](dim:CustomerName)
+- Which [prodGroup](dim:Prodgroup) is [least](selection:bottom) sold
+- show me [best](selection:top) [customer type](dim:CustomerType)
+- show me [prime](selection:top) [region](dim:CustomerRegion)
+- who is [top](selection:top) [employee](dim:Name)
+- who is [bottom](selection:bottom) [customer](dim:CustomerName)
+- what is the [best](selection:best) [month year](MonthYear)
