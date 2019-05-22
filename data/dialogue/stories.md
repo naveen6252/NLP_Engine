@@ -343,8 +343,8 @@
     - utter_confirmation.no
 
 ## story 87
-*dim.kpi.adject
-    - action_dim.kpi.adject
+*dim.kpi_table.adject
+    - action_dim.kpi_table.adject
 
 ## story 88
 *fact.kpi.dim.filter
@@ -549,3 +549,37 @@
     - utter_appraisal.thank_you
 *greetings.whatsup
     - utter_greetings.whatsup
+
+## Generated Story 2891385473591286223
+* greetings.hello
+    - utter_greetings.hello
+* fact.kpi.single{"fact": "SalesAmount"}
+    - action_fact.kpi.single
+* dim.kpi_table.adject{"selection": "bottom", "dim": "Year"}
+    - action_dim.kpi_table.adject
+
+## Generated Story -1908398455753577873
+* greetings.how_are_you
+    - utter_greetings.how_are_you
+* fact.kpi.single{"fact": "SalesAmount"}
+    - action_fact.kpi.single
+* fact.kpi.single{"agg": "mean", "fact": "SalesAmount"}
+    - slot{"agg": "mean"}
+    - action_fact.kpi.single
+* dim.kpi_table.adject{"selection": "bottom", "dim": "CustomerName"}
+    - action_dim.kpi_table.adject
+* fact.table.group{"fact": "SalesAmount", "dim": "CustomerRegion", "graph": "pie"}
+    - slot{"graph": "pie"}
+    - action_fact.table.group
+* fact.kpi.single{"DATE": "last month", "dim": "Month", "fact": "SalesAmount"}
+    - action_fact.kpi.single
+
+## Generated Story 2144048701038298288
+* dim.kpi_table.adject{"selection": "top", "dim": "CustomerName", "CustomerRegion": "North"}
+    - slot{"CustomerRegion": "North"}
+    - action_dim.kpi_table.adject
+* dim.kpi_table.adject{"selection": "bottom", "dim": "CustomerName"}
+    - action_dim.kpi_table.adject
+* dim.kpi_table.adject{"selection": "top", "dim": "CustomerRegion", "CARDINAL": "10"}
+    - action_dim.kpi_table.adject
+

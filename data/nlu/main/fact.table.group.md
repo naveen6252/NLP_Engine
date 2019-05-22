@@ -36,4 +36,6 @@
 - show me [sales](fact:SalesAmount) by [products](dim:ProductDesc)
 - show me [sales](fact:SalesAmount) for each [client](dim:CustomerName)
 - Show me [sales](fact:SalesAmount) for each [client](dim:CustomerName) by [emp050](Name:Emp050) in [north](CustomerRegion:North) region
-
+- Show me [month-year](dim:MonthYear) wise [sales](fact:SalesAmount)
+- what is the [sales](fact:SalesAmount) for each [year month](dim:MonthYear)
+- what is [month year](dim:MonthYear) wise [sales](fact:SalesAmount)

@@ -56,3 +56,4 @@
 - what is [product 60](ProductDesc:P60) [sales](fact:SalesAmount)
 - what is [sales](fact:SalesAmount) of [p60](ProductDesc:P60)
 - what is the [sales](fact:SalesAmount) by [emp50](Name:Emp050) in [bfsi](CustomerType:BFSI) [north](CustomerRegion:North)
+- Show me [revenue](fact:SalesAmount) for [north](CustomerRegion:North) region

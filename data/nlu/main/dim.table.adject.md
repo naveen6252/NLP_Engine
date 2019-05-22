@@ -1,2 +1,0 @@
-## intent:dim.table.adject
-- 

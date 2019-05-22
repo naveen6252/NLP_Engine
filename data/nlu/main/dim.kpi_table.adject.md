@@ -1,0 +1,22 @@
+## intent:dim.kpi_table.adject
+- Who is my [best](selection:top) [customer](dim:CustomerName)
+- Which [product](dim:ProductDesc) is [best](selection:top) [sold](fact:SalesAmount)
+- who is the [supreme](selection:top) [employee](dim:Name)
+- show me the [worst](selection:bottom) [customer](dim:CustomerName)
+- Which [prodGroup](dim:ProdGroup) is [worst](selection:bottom) [sold](fact:SalesAmount)
+- show me [best](selection:top) [customer type](dim:CustomerType)
+- show me [prime](selection:top) [region](dim:CustomerRegion)
+- who is [top](selection:top) [employee](dim:Name)
+- who is [bottom](selection:bottom) [customer](dim:CustomerName)
+- what is the [best](selection:top) [month year](dim:MonthYear)
+- Show me [region](dim:CustomerRegion) wise [best](selection:top) [employee](dim:Name) on [table](graph:table)
+- Who are the [worst](selection:bottom) [customers](dim:CustomerName) in each [customer type](dim:CustomerType)
+- show me [top](selection:top) 10 [employees](dim:Name)
+- what are the [worst](selection:bottom) 5 [products](dim:ProductDesc) [sold](fact:SalesAmount)
+- Show me the [top](selection:top) 10 [products](dim:ProductDesc) [sold](fact:SalesAmount) to each [customer type](dim:CustomerType)
+- show me [top](selection:top) [customer types](dim:CustomerType) in each [month](dim:Month)
+- who are the [top](selection:top) 5 [customers](dim:CustomerName) in [north](CustomerRegion:North) region
+- show me [worst](selection:bottom) 5 [clients](dim:CustomerName) in [south](CustomerRegion:South) region on [pie](graph:pie) chart
+- show me [top](selection:top) 10 [products](dim:ProductDesc) in [govt](CustomerType:Govt) sector
+- show me [top](selection:top) 10 [products](dim:ProductDesc) sold by [emp050](Name:Emp050)
+- who is the [top](selection:top) [employee](dim:Name) in [bfsi](CustomerType:BFSI) sector
