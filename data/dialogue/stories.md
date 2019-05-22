@@ -583,3 +583,14 @@
 * dim.kpi_table.adject{"selection": "top", "dim": "CustomerRegion", "CARDINAL": "10"}
     - action_dim.kpi_table.adject
 
+## Generated Story -1178934524460930501
+* greetings.how_are_you
+    - utter_greetings.how_are_you
+* fact.table.group{"DATE": "yesterday", "fact": "SalesAmount", "dim": "CustomerRegion"}
+    - action_fact.table.group
+* dim.kpi_table.adject{"selection": "top", "dim": "CustomerName", "DATE": "last week"}
+    - action_dim.kpi_table.adject
+* fact.table.group{"DATE": "last 3 month", "fact": "SalesAmount", "dim": "CustomerRegion", "graph": "bar"}
+    - slot{"graph": "bar"}
+    - action_fact.table.group
+

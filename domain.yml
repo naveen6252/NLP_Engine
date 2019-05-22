@@ -219,6 +219,9 @@ slots:
   graph:
     initial_value: table
     type: text
+  dim:
+    initial_value:
+    type: text
 templates:
   utter_agent.acquaintance:
   - text: I'm a virtual agent
